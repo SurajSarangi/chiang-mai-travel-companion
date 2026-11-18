@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#f4f1e8">
+  <meta name="description" content="A personal travel companion for five days in Chiang Mai and Chiang Rai, Thailand.">
+  <title>The Northern Escape — Chiang Mai & Chiang Rai</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/base.css">
+  <link rel="stylesheet" href="assets/css/components.css">
+  <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+<body>
+  <div class="site-shell">
+    <header class="topbar">
+      <a class="wordmark" href="#" id="homeLink" aria-label="The Northern Escape home">
+        <span class="wordmark-mark">N</span>
+        <span>THE NORTHERN ESCAPE</span>
+      </a>
+      <button class="utility-button" id="overviewButton" type="button" aria-label="Open trip overview">
+        <span class="utility-dot"></span><span class="utility-label">TRIP NOTES</span>
+        <span aria-hidden="true">↗</span>
+      </button>
+    </header>
+
+    <main id="app" tabindex="-1">
+      <section class="welcome-screen" id="welcomeScreen">
+        <div class="welcome-image">
+          <div class="image-wash"></div>
+          <div class="welcome-kicker">A NORTHERN THAILAND JOURNEY · 2026</div>
+          <div class="welcome-copy">
+            <p class="eyebrow light">DECEMBER 05 — 09 · TWO FRIENDS</p>
+            <h1>The Northern<br><em>Escape.</em></h1>
+            <p class="welcome-subtitle">Five days of mountain air, creative corners, remarkable temples and the joy of taking the scenic route.</p>
+            <button class="primary-button" id="beginButton" type="button">Explore the journey <span aria-hidden="true">→</span></button>
+          </div>
+          <div class="image-caption">CHIANG MAI & CHIANG RAI, THAILAND</div>
+        </div>
+        <div class="welcome-bottom">
+          <div><span class="eyebrow">THE PLAN</span><strong>05 days</strong></div>
+          <div><span class="eyebrow">THE COMPANY</span><strong>2 friends</strong></div>
+          <div><span class="eyebrow">THE SEASON</span><strong>Cool season</strong></div>
+        </div>
+      </section>
+
+      <section class="journey-screen hidden" id="journeyScreen">
+        <div class="journey-heading">
+          <div>
+            <p class="eyebrow">CHIANG MAI & CHIANG RAI · THAILAND</p>
+            <h1 class="section-title">Five days, <em>northbound.</em></h1>
+            <p class="muted intro-line">A little culture, a little wilderness, and plenty of room for the unexpected.</p>
+          </div>
+          <button class="text-button" id="backToCover" type="button">← Cover</button>
+        </div>
+
+        <nav class="day-nav" aria-label="Choose a trip day">
+          <button class="day-tab journey-tab" data-day="0" type="button">
+            <span class="tab-number">00</span><span class="tab-date">DEC 04</span><span class="tab-label">The journey</span>
+          </button>
+          <button class="day-tab active" data-day="1" type="button" aria-current="page">
+            <span class="tab-number">01</span><span class="tab-date">DEC 05</span><span class="tab-label">City life</span>
+          </button>
+          <button class="day-tab" data-day="2" type="button">
+            <span class="tab-number">02</span><span class="tab-date">DEC 06</span><span class="tab-label">Mae Kampong</span>
+          </button>
+          <button class="day-tab" data-day="3" type="button">
+            <span class="tab-number">03</span><span class="tab-date">DEC 07</span><span class="tab-label">Doi Inthanon</span>
+          </button>
+          <button class="day-tab" data-day="4" type="button">
+            <span class="tab-number">04</span><span class="tab-date">DEC 08</span><span class="tab-label">Chiang Rai</span>
+          </button>
+          <button class="day-tab" data-day="5" type="button">
+            <span class="tab-number">05</span><span class="tab-date">DEC 09</span><span class="tab-label">Mon Jam</span>
+          </button>
+        </nav>
+
+        <div id="dayContent" class="day-content"></div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>MADE FOR THE LONG WAY ROUND</span>
+      <span>CHIANG MAI · DECEMBER 2026</span>
+    </footer>
+  </div>
+
+  <dialog class="overview-dialog" id="overviewDialog">
+    <div class="dialog-top">
+      <p class="eyebrow">A FEW USEFUL DETAILS</p>
+      <button class="close-button" id="closeOverview" aria-label="Close trip notes">×</button>
+    </div>
+    <h2>Before you <em>set off.</em></h2>
+    <div class="overview-detail">
+      <span class="eyebrow">DATES</span><strong>December 5–9, 2026</strong>
+    </div>
+    <div class="overview-detail">
+      <span class="eyebrow">BASE IN CHIANG MAI</span><strong>ibis Styles Chiang Mai</strong>
+      <a href="https://all.accor.com/hotel/8108/index.en.shtml" target="_blank" rel="noreferrer">Hotel website ↗</a>
+    </div>
+    <div class="overview-detail">
+      <span class="eyebrow">ARRIVAL</span><strong>Chiang Mai Bus Terminal 3</strong>
+      <p>December 5 · 7:30 AM shown by the bus operator. Treat as tentative.</p>
+    </div>
+    <div class="overview-detail">
+      <span class="eyebrow">TRAVEL STYLE</span><strong>Private transport for day trips</strong>
+      <p>Local transport in the city, photography and café stops, with room to slow down.</p>
+    </div>
+    <p class="dialog-note">This is a working travel companion. Times, prices and opening details will be marked as estimates until confirmed.</p>
+  </dialog>
+
+  <script src="data/trip.js"></script>
+  <script src="data/day-0.js"></script>
+  <script src="data/day-1.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
