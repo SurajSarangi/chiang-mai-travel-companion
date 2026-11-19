@@ -48,3 +48,133 @@
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { scroll-behavior: auto !important; transition-duration: .01ms !important; animation-duration: .01ms !important; }
 }
+
+/* =========================================
+   MOBILE POLISH
+   ========================================= */
+
+@media (max-width: 800px) {
+  .day-hero {
+    margin-bottom: 34px;
+  }
+
+  .day-hero-image {
+    background-position: center;
+  }
+
+  .content-grid {
+    gap: 24px;
+  }
+
+  .content-section {
+    margin-bottom: 34px;
+  }
+
+  .timeline {
+    padding-left: 19px;
+  }
+
+  .timeline:before {
+    left: 4px;
+  }
+
+  .stop-card {
+    padding: 15px;
+  }
+
+  .stop-card:before {
+    left: -19px;
+  }
+
+  .content-sidebar {
+    align-items: stretch;
+  }
+}
+
+@media (max-width: 520px) {
+  .day-nav {
+    margin-right: -16px;
+    margin-left: -16px;
+    padding-right: 16px;
+    padding-left: 16px;
+  }
+
+  .day-tab {
+    flex-basis: 106px;
+  }
+
+  .day-hero {
+    margin-bottom: 30px;
+  }
+
+  .day-hero-copy {
+    padding: 24px 19px 26px;
+  }
+
+  .day-meta {
+    gap: 14px 20px;
+  }
+
+  .meta-item strong {
+    font-size: 10px;
+  }
+
+  .section-heading {
+    align-items: flex-end;
+  }
+
+  .section-heading h3 {
+    font-size: 22px;
+  }
+
+  .section-heading span {
+    max-width: 125px;
+    line-height: 1.5;
+  }
+
+  .stop-card {
+    padding: 14px;
+    margin-bottom: 10px;
+  }
+
+  .stop-card h4 {
+    font-size: 14px;
+  }
+
+  .stop-card p {
+    font-size: 11px;
+  }
+
+  .stop-details {
+    margin-top: 10px;
+  }
+
+  .food-row {
+    gap: 10px;
+  }
+
+  .food-row strong {
+    font-size: 11px;
+  }
+
+  .food-row .food-type {
+    font-size: 7px;
+  }
+
+  .side-card {
+    padding: 21px;
+  }
+
+  .notice {
+    font-size: 10px;
+  }
+}
+
+@media (hover: none) {
+  .stop-card:hover,
+  .food-row:hover {
+    transform: none;
+    padding-left: initial;
+    box-shadow: none;
+  }
+}

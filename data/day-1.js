@@ -9,6 +9,8 @@ window.DAY_1 = {
   transport: "Local transport",
   duration: "Flexible arrival day",
   budget: "To be estimated",
+  timelineNotice:"Arrival-day pacing: the order is a planning sequence, not a fixed timetable. Jing Jai Market is especially dependent on the actual arrival time and energy after the overnight bus.",
+  timelineKicker: "FLEXIBLE ORDER · NOT TIMED",
   arrival: {
     title: "Arrive in Chiang Mai",
     time: "7:30 AM · tentative",
