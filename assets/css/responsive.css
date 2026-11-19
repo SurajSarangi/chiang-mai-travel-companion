@@ -45,6 +45,17 @@
   .site-footer { font-size: 7px; letter-spacing: .1em; }
   .overview-dialog { padding: 24px; }
 }
+
+@media (max-width: 600px) {
+  .image-caption-group {right: 20px; bottom: 22px; gap: 7px; }
+  .cover-countdown-time {font-size: 0.62rem; }
+  .cover-countdown-label {font-size: 0.5rem; }
+}
+
+@media (max-width: 360px) {
+  .cover-countdown-time {font-size: 0.55rem; }
+}
+
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { scroll-behavior: auto !important; transition-duration: .01ms !important; animation-duration: .01ms !important; }
 }
@@ -296,5 +307,180 @@
   .wardrobe-notes,
   .wardrobe-photo-note {
     padding: 17px;
+  }
+}
+
+/* =========================================
+   TRAVEL PAGE RESPONSIVE
+========================================= */
+
+@media (max-width: 768px) {
+  .section-nav {
+    justify-content: flex-start;
+    padding: 10px 0;
+  }
+
+  .travel-page {
+    padding: 12px 0 40px;
+  }
+
+  .travel-hero {
+    padding: 32px 22px;
+    margin-bottom: 32px;
+  }
+
+  .travel-section {
+    margin-bottom: 36px;
+  }
+
+  .travel-section-heading h2 {
+    font-size: 1.5rem;
+  }
+
+  .travel-card-grid,
+  .travel-document-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .travel-timeline-item {
+    grid-template-columns: 34px minmax(0, 1fr);
+    gap: 10px;
+  }
+
+  .travel-timeline-marker span {
+    width: 30px;
+    height: 30px;
+    font-size: 0.65rem;
+  }
+
+  .travel-timeline-item:not(:last-child)::after {
+    left: 17px;
+    top: 52px;
+  }
+
+  .travel-timeline-card,
+  .travel-detail-card,
+  .travel-document-card {
+    padding: 17px;
+  }
+
+  .travel-route {
+    gap: 8px;
+    padding: 13px;
+  }
+
+  .travel-route strong {
+    font-size: 0.78rem;
+  }
+
+  .travel-stay-dates {
+    gap: 12px;
+    padding: 13px;
+  }
+
+  .travel-stay-dates > div {
+    font-size: 0.77rem;
+  }
+}
+
+@media (max-width: 420px) {
+  .travel-card-topline {
+    align-items: flex-start;
+  }
+
+  .travel-status {
+    font-size: 0.62rem;
+  }
+
+  .travel-route {
+    grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
+  }
+
+  .travel-route strong {
+    overflow-wrap: anywhere;
+  }
+
+  .travel-facts {
+    gap: 14px;
+  }
+
+  .travel-stay-dates {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .travel-document-item {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .travel-document-link,
+  .travel-document-empty {
+    margin-left: 46px;
+  }
+}
+
+@media (max-width: 600px) {
+  .flight-card-header,
+  .bus-card-top {
+    padding: 16px;
+  }
+
+  .flight-route-display,
+  .bus-route-display {
+    gap: 6px;
+    padding: 23px 14px;
+  }
+
+  .flight-endpoint strong,
+  .bus-endpoint strong {
+    font-size: 2rem;
+  }
+
+  .flight-endpoint > span,
+  .bus-endpoint > span {
+    font-size: 0.85rem;
+  }
+
+  .flight-endpoint small,
+  .bus-endpoint small {
+    font-size: 0.65rem;
+  }
+
+  .flight-card-details {
+    padding: 16px;
+    gap: 12px;
+  }
+
+  .flight-card-date,
+  .bus-date {
+    padding: 12px 16px;
+  }
+
+  .bus-ticket-footer {
+    padding: 16px;
+    gap: 8px;
+  }
+
+  .bus-ticket-footer strong {
+    font-size: 0.72rem;
+  }
+
+  .flight-card > .travel-notes,
+  .bus-card > .travel-notes {
+    margin-right: 16px;
+    margin-left: 16px;
+  }
+}
+@media (max-width: 600px) {
+  .travel-essentials-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .travel-quick-panel summary {
+    padding: 15px;
+  }
+
+  .travel-quick-content {
+    padding: 0 15px 15px;
   }
 }

@@ -37,7 +37,16 @@
             <p class="welcome-subtitle">Five days of mountain air, creative corners, remarkable temples and the joy of taking the scenic route.</p>
             <button class="primary-button" id="beginButton" type="button">Explore the journey <span aria-hidden="true">→</span></button>
           </div>
-          <div class="image-caption">CHIANG MAI & CHIANG RAI, THAILAND</div>
+          <div class="image-caption-group">
+            <div class="cover-countdown" id="coverCountdown">
+              <span class="cover-countdown-label">THE ADVENTURE BEGINS IN</span>
+              <span class="cover-countdown-time" id="coverCountdownTime">
+                00 DAYS · 00 HRS · 00 MIN · 00 SEC
+              </span>
+            </div>
+
+            <div class="image-caption">CHIANG MAI & CHIANG RAI, THAILAND</div>
+          </div>
         </div>
         <div class="welcome-bottom">
           <div><span class="eyebrow">THE PLAN</span><strong>05 days</strong></div>
@@ -54,6 +63,13 @@
             <p class="muted intro-line">A little culture, a little wilderness, and plenty of room for the unexpected.</p>
           </div>
           <button class="text-button" id="backToCover" type="button">← Cover</button>
+        </div>
+
+        <div class="section-nav">
+          <button id="travelTab" class="section-nav-tab" type="button">
+            <span class="section-nav-icon">✈</span>
+            <span>Travel</span>
+          </button>
         </div>
 
         <nav class="day-nav" aria-label="Choose a trip day">
@@ -77,6 +93,7 @@
           </button>
         </nav>
 
+        <div id="travelContent" class="travel-content" hidden></div>
         <div id="dayContent" class="day-content"></div>
       </section>
     </main>
@@ -118,6 +135,9 @@
   <script src="data/day-3.js"></script>
   <script src="data/day-4.js"></script>
   <script src="data/day-5.js"></script>
+  <script src="data/travel.js"></script>
+  <script src="assets/js/travel.js"></script>
   <script src="assets/js/app.js"></script>
+  <script src="assets/js/countdown.js"></script>
 </body>
 </html>
