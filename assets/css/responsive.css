@@ -178,3 +178,123 @@
     box-shadow: none;
   }
 }
+/* =========================================
+   BEHIND THE LENS - RESPONSIVE
+========================================= */
+
+@media (max-width: 768px) {
+  .behind-lens-section {
+    margin-top: 44px;
+    padding-top: 32px;
+  }
+
+  .behind-lens-header {
+    margin-bottom: 24px;
+  }
+
+  .lens-content-grid {
+    grid-template-columns: 1fr;
+    gap: 14px;
+  }
+
+  .lens-panel,
+  .lens-checklist-panel {
+    padding: 18px;
+    border-radius: 14px;
+  }
+
+  .lens-panel-heading {
+    margin-bottom: 18px;
+  }
+
+  .lens-checklist {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 420px) {
+  .behind-lens-header h2 {
+    font-size: 2rem;
+  }
+
+  .lens-shot-heading {
+    flex-wrap: wrap;
+  }
+
+  .lens-panel,
+  .lens-checklist-panel {
+    padding: 16px;
+  }
+
+  .lens-reel summary {
+    padding: 14px;
+  }
+
+  .lens-reel-content {
+    padding: 0 14px 16px;
+  }
+}
+/* ==========================================
+   WHAT TO WEAR — RESPONSIVE
+========================================== */
+
+@media (max-width: 768px) {
+  .wardrobe-section {
+    margin-top: 44px;
+    padding-top: 32px;
+  }
+
+  .wardrobe-header {
+    margin-bottom: 22px;
+  }
+
+  .wardrobe-header h2 {
+    font-size: 2rem;
+  }
+
+  .wardrobe-palette-panel {
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .wardrobe-palette {
+    gap: 14px;
+  }
+
+  .wardrobe-outfit-grid,
+  .wardrobe-practical-grid {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+
+  .wardrobe-outfit {
+    padding: 20px;
+  }
+}
+
+@media (max-width: 420px) {
+  .wardrobe-header h2 {
+    font-size: 1.8rem;
+  }
+
+  .wardrobe-palette {
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .wardrobe-swatch {
+    min-width: 50px;
+  }
+
+  .swatch-colour {
+    width: 36px;
+    height: 36px;
+  }
+
+  .wardrobe-practical-card,
+  .wardrobe-notes,
+  .wardrobe-photo-note {
+    padding: 17px;
+  }
+}

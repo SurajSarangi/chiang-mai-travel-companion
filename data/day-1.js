@@ -105,5 +105,134 @@ window.DAY_1 = {
     "Jing Jai Market is a morning activity and may be missed if the bus is delayed.",
     "Wat Chiang Man and Wat Umong are optional stops.",
     "Opening days, hours and exact branch details for food and cafés need verification."
-  ]
+  ],
+  wardrobe: {
+    theme: "Earthy city explorer",
+    intro: "A day of temples, creative neighbourhoods, markets and evening street life. Think relaxed city styling with warm colours and breathable fabrics.",
+    palette: [
+      { name: "Warm beige", hex: "#D9CBB5" },
+      { name: "Terracotta", hex: "#B66E4E" },
+      { name: "Olive", hex: "#85896A" },
+      { name: "Forest green", hex: "#405C4A" }
+    ],
+    men: {
+      outfit: "A linen or cotton shirt with relaxed chinos or straight-fit trousers. Roll up the sleeves for a casual daytime look.",
+      alternatives: [
+        "A textured polo with beige trousers",
+        "A neutral T-shirt with olive or brown relaxed trousers"
+      ]
+    },
+    women: {
+      outfit: "A linen blouse with wide-leg trousers, or a modest midi dress in a warm neutral shade.",
+      alternatives: [
+        "A relaxed cotton co-ord set",
+        "A breathable blouse with a midi skirt"
+      ]
+    },
+    footwear: "Comfortable walking sneakers or supportive sandals. Expect plenty of walking across the Old City and markets.",
+    layering: "A light overshirt or scarf can be useful in air-conditioned cafés and indoor spaces.",
+    practicalNotes: [
+      "For temple visits, choose clothing that covers shoulders and knees where required.",
+      "Avoid relying on a sleeveless top or short shorts as your only outfit for temple stops.",
+      "Choose breathable fabrics for a full day outdoors."
+    ],
+    photoNotes: "Warm neutrals and muted greens complement the old temple architecture, timber details and market colours."
+  },
+  behindTheLens: {
+    theme: "First impressions of Chiang Mai",
+    intro: "A visual introduction to the city: markets, Lanna architecture, creative spaces and lively streets after dark.",
+
+    photography: [
+      {
+        title: "Market mornings",
+        location: "Jing Jai Market",
+        direction: "Capture colourful stalls, food close-ups, vendor details and candid market moments. Try shooting at eye level rather than photographing everything from above.",
+        priority: "must-capture"
+      },
+      {
+        title: "Lanna architecture",
+        location: "Wat Phra Singh",
+        direction: "Use the temple entrance for symmetrical compositions. Capture roof details, gold decoration and a portrait framed by the architecture.",
+        priority: "must-capture"
+      },
+      {
+        title: "Ancient scale",
+        location: "Wat Chedi Luang",
+        direction: "Use a wide frame with a person near the base of the structure to communicate its scale. Capture brick textures separately.",
+        priority: "must-capture"
+      },
+      {
+        title: "Creative details",
+        location: "Baan Kang Wat",
+        direction: "Photograph ceramics, handmade objects, workshop details and hands at work. Ask before taking identifiable portraits of artisans.",
+        priority: "optional"
+      },
+      {
+        title: "Street after dark",
+        location: "Wualai Walking Street",
+        direction: "Capture food preparation, illuminated stalls, movement and candid street scenes. Avoid using flash in people's faces.",
+        priority: "must-capture"
+      }
+    ],
+
+    reels: [
+      {
+        title: "A day in Chiang Mai",
+        concept: "A first-day introduction that moves from morning markets to evening street life.",
+        duration: "20–30 seconds",
+        shots: [
+          "Chiang Mai arrival sign or city street",
+          "First coffee or breakfast",
+          "Jing Jai Market food and colours",
+          "Wat Phra Singh architectural reveal",
+          "Wat Chedi Luang wide shot",
+          "Baan Kang Wat creative details",
+          "Walking Street at night",
+          "North Gate Jazz Co-op atmosphere"
+        ],
+        editing: "Use quick cuts for the market, slower shots for temples and a lively rhythm for the evening. Let the final jazz clip breathe."
+      },
+      {
+        title: "Chiang Mai in little details",
+        concept: "A short visual montage that tells the story of the city through close-ups.",
+        duration: "12–18 seconds",
+        shots: [
+          "Coffee being poured",
+          "Market food sizzling",
+          "Temple carving",
+          "Flowers or offerings",
+          "Ceramic artwork",
+          "Street food preparation",
+          "Evening lights"
+        ],
+        editing: "Use mostly 1-second clips, matching shapes, colours or movements between consecutive shots."
+      }
+    ],
+
+    transitions: [
+      {
+        title: "Pillar reveal",
+        direction: "Move the camera behind a temple pillar or wall until the frame is covered, then repeat at the next location.",
+        edit: "Cut when the frame is fully covered."
+      },
+      {
+        title: "Coffee to culture",
+        direction: "Film a coffee cup being lifted close to the lens, then start the next clip with a temple detail in a similar position.",
+        edit: "Use a match cut on the movement."
+      },
+      {
+        title: "Market whip-pan",
+        direction: "Finish a market clip with a quick horizontal camera movement. Repeat the movement at the next location.",
+        edit: "Align the direction and speed of both movements."
+      }
+    ],
+
+    filmMoments: [
+      "A quiet establishing shot of the Old City.",
+      "A slow, steady temple architecture shot.",
+      "Artisan hands working at Baan Kang Wat.",
+      "A wide evening shot of the Walking Street.",
+      "A few seconds of live jazz and natural crowd ambience."
+    ]
+  },
 };

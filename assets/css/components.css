@@ -270,3 +270,500 @@
     transform: translateY(0);
   }
 }
+/* =========================================
+   BEHIND THE LENS
+========================================= */
+
+.behind-lens-section {
+  margin-top: 64px;
+  padding-top: 48px;
+  border-top: 1px solid var(--border-color, #dedbd2);
+}
+
+.behind-lens-header {
+  max-width: 720px;
+  margin-bottom: 32px;
+}
+
+.behind-lens-header .section-kicker,
+.lens-eyebrow {
+  display: block;
+  color: var(--accent-color, #8b795d);
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  margin-bottom: 10px;
+}
+
+.behind-lens-header h2 {
+  font-family: var(--font-heading, Georgia, serif);
+  font-size: clamp(2rem, 4vw, 3rem);
+  line-height: 1.1;
+  margin: 0 0 12px;
+}
+
+.behind-lens-header > p {
+  color: var(--text-secondary, #77756d);
+  line-height: 1.7;
+  margin: 0;
+  max-width: 620px;
+}
+
+.lens-content-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 20px;
+}
+
+.lens-panel,
+.lens-checklist-panel {
+  background: var(--card-bg, #fff);
+  border: 1px solid var(--border-color, #e5e1d8);
+  border-radius: 16px;
+  padding: 24px;
+  min-width: 0;
+}
+
+.lens-panel-heading {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 22px;
+}
+
+.lens-icon {
+  display: grid;
+  place-items: center;
+  width: 38px;
+  height: 38px;
+  flex-shrink: 0;
+  border-radius: 50%;
+  background: var(--surface-secondary, #f1efe8);
+  color: var(--text-primary, #30372d);
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+
+.lens-panel-heading h3 {
+  font-family: var(--font-heading, Georgia, serif);
+  font-size: 1.35rem;
+  margin: 0 0 3px;
+}
+
+.lens-panel-heading p {
+  font-size: 0.82rem;
+  color: var(--text-secondary, #77756d);
+  margin: 0;
+}
+
+/* Photography */
+
+.lens-shot-grid {
+  display: grid;
+  gap: 0;
+}
+
+.lens-shot {
+  padding: 16px 0;
+  border-top: 1px solid var(--border-color, #e5e1d8);
+}
+
+.lens-shot:first-child {
+  border-top: 0;
+  padding-top: 0;
+}
+
+.lens-shot-heading {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.lens-shot h4,
+.lens-transition h4,
+.lens-reel h4 {
+  font-size: 0.98rem;
+  font-weight: 650;
+  margin: 0;
+}
+
+.lens-priority {
+  flex-shrink: 0;
+  font-size: 0.65rem;
+  padding: 4px 8px;
+  border-radius: 20px;
+  background: var(--surface-secondary, #f1efe8);
+  color: var(--text-secondary, #77756d);
+}
+
+.lens-priority.is-priority {
+  background: #e9eee5;
+  color: #496044;
+}
+
+.lens-shot p,
+.lens-transition p {
+  font-size: 0.87rem;
+  line-height: 1.65;
+  color: var(--text-secondary, #77756d);
+  margin: 7px 0 0;
+}
+
+.lens-shot .lens-location {
+  font-size: 0.74rem;
+  font-weight: 600;
+  color: var(--accent-color, #8b795d);
+  margin-top: 5px;
+}
+
+/* Reels */
+
+.lens-reel-list {
+  display: grid;
+  gap: 10px;
+}
+
+.lens-reel {
+  border: 1px solid var(--border-color, #e5e1d8);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.lens-reel summary {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  padding: 16px;
+  cursor: pointer;
+  list-style: none;
+}
+
+.lens-reel summary::-webkit-details-marker {
+  display: none;
+}
+
+.lens-reel summary h4 {
+  margin: 0 0 5px;
+}
+
+.lens-reel summary p {
+  margin: 0;
+  color: var(--text-secondary, #77756d);
+  font-size: 0.75rem;
+}
+
+.lens-expand {
+  display: grid;
+  place-items: center;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: var(--surface-secondary, #f1efe8);
+  flex-shrink: 0;
+  transition: transform 0.2s ease;
+}
+
+.lens-reel[open] .lens-expand {
+  transform: rotate(45deg);
+}
+
+.lens-reel-content {
+  padding: 0 16px 18px;
+}
+
+.lens-reel-content > p {
+  font-size: 0.87rem;
+  line-height: 1.65;
+  color: var(--text-secondary, #77756d);
+}
+
+.lens-reel-content h5 {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin: 18px 0 10px;
+}
+
+.lens-shot-list {
+  padding-left: 22px;
+  margin: 0;
+}
+
+.lens-shot-list li {
+  padding: 4px 0 4px 4px;
+  font-size: 0.86rem;
+  line-height: 1.5;
+}
+
+/* Transitions */
+
+.lens-transition-list {
+  display: grid;
+  gap: 0;
+}
+
+.lens-transition {
+  padding: 15px 0;
+  border-top: 1px solid var(--border-color, #e5e1d8);
+}
+
+.lens-transition:first-child {
+  border-top: 0;
+  padding-top: 0;
+}
+
+.lens-transition p strong {
+  color: var(--text-primary, #30372d);
+}
+
+/* Travel film */
+
+.lens-film-list {
+  margin: 0;
+  padding-left: 20px;
+}
+
+.lens-film-list li {
+  padding: 7px 0 7px 4px;
+  font-size: 0.88rem;
+  line-height: 1.55;
+  color: var(--text-secondary, #77756d);
+}
+
+/* Capture checklist */
+
+.lens-checklist-panel {
+  margin-top: 20px;
+}
+
+.lens-checklist {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.lens-check-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 12px;
+  border-radius: 10px;
+  background: var(--surface-secondary, #f6f4ef);
+  cursor: pointer;
+}
+
+.lens-check-item input {
+  margin-top: 4px;
+  accent-color: var(--accent-color, #526b48);
+  flex-shrink: 0;
+}
+
+.lens-check-item span {
+  display: grid;
+  gap: 3px;
+}
+
+.lens-check-item strong {
+  font-size: 0.82rem;
+  font-weight: 600;
+}
+
+.lens-check-item small {
+  font-size: 0.72rem;
+  color: var(--text-secondary, #77756d);
+}
+
+.lens-check-item input:checked + span strong {
+  text-decoration: line-through;
+  opacity: 0.55;
+}
+
+.lens-footer {
+  text-align: center;
+  font-family: var(--font-heading, Georgia, serif);
+  font-style: italic;
+  color: var(--text-secondary, #77756d);
+  font-size: 1rem;
+  margin-top: 28px;
+}
+/* ==========================================
+   WHAT TO WEAR
+========================================== */
+
+.wardrobe-section {
+  margin-top: 64px;
+  padding-top: 48px;
+  border-top: 1px solid var(--border-color);
+}
+
+.wardrobe-header {
+  max-width: 680px;
+  margin-bottom: 30px;
+}
+
+.wardrobe-header h2 {
+  font-family: var(--font-heading);
+  font-size: 2.3rem;
+  line-height: 1.15;
+  margin: 10px 0 12px;
+  color: var(--text-primary);
+}
+
+.wardrobe-header > p {
+  color: var(--text-secondary);
+  line-height: 1.7;
+}
+
+.wardrobe-eyebrow {
+  display: block;
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.13em;
+  color: var(--accent-color);
+  margin-bottom: 10px;
+}
+
+/* Colour palette */
+
+.wardrobe-palette-panel {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  padding: 24px;
+  margin-bottom: 16px;
+  background: var(--surface-secondary);
+  border-radius: 16px;
+}
+
+.wardrobe-palette-panel h3 {
+  font-family: var(--font-heading);
+  font-size: 1.35rem;
+  margin: 0;
+}
+
+.wardrobe-palette {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px;
+}
+
+.wardrobe-swatch {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 7px;
+  min-width: 58px;
+}
+
+.swatch-colour {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  border: 1px solid rgba(0, 0, 0, 0.10);
+}
+
+.swatch-name {
+  font-size: 0.7rem;
+  color: var(--text-secondary);
+  text-align: center;
+}
+
+/* Outfit cards */
+
+.wardrobe-outfit-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.wardrobe-outfit {
+  padding: 24px;
+  border: 1px solid var(--border-color);
+  border-radius: 16px;
+  background: var(--card-bg);
+}
+
+.wardrobe-main-outfit {
+  font-size: 0.95rem;
+  line-height: 1.75;
+  color: var(--text-primary);
+  margin: 0 0 20px;
+}
+
+.wardrobe-alternatives {
+  padding-top: 16px;
+  border-top: 1px solid var(--border-color);
+}
+
+.wardrobe-alternatives h5 {
+  margin: 0 0 10px;
+  font-size: 0.78rem;
+  color: var(--text-secondary);
+}
+
+.wardrobe-alternatives ul,
+.wardrobe-notes ul {
+  padding-left: 19px;
+  margin: 0;
+}
+
+.wardrobe-alternatives li,
+.wardrobe-notes li {
+  padding: 4px 0;
+  font-size: 0.85rem;
+  line-height: 1.6;
+  color: var(--text-secondary);
+}
+
+/* Practical information */
+
+.wardrobe-practical-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.wardrobe-practical-card {
+  padding: 20px 24px;
+  border-radius: 14px;
+  background: var(--surface-secondary);
+}
+
+.wardrobe-practical-card p {
+  margin: 0;
+  font-size: 0.88rem;
+  line-height: 1.7;
+  color: var(--text-secondary);
+}
+
+.wardrobe-notes {
+  padding: 22px 24px;
+  border: 1px solid var(--border-color);
+  border-radius: 14px;
+  margin-bottom: 16px;
+}
+
+.wardrobe-notes h3 {
+  font-family: var(--font-heading);
+  font-size: 1.2rem;
+  margin: 0 0 12px;
+}
+
+.wardrobe-photo-note {
+  padding: 20px 24px;
+  border-left: 3px solid var(--accent-color);
+  background: var(--surface-secondary);
+  border-radius: 0 12px 12px 0;
+}
+
+.wardrobe-photo-note p {
+  margin: 0;
+  font-size: 0.9rem;
+  line-height: 1.7;
+  color: var(--text-secondary);
+}

@@ -84,5 +84,134 @@ window.DAY_3 = {
     "Carry a warm jacket.",
     "Wear trekking shoes.",
     "Carry water, sunscreen, snacks and cash for guide and park fees."
-  ]
+  ],
+  wardrobe: {
+    theme: "Ready for the highlands",
+    intro: "Doi Inthanon is the most physically demanding day and can be considerably colder than Chiang Mai city. Layering and comfortable movement matter most.",
+    palette: [
+      { name: "Deep forest", hex: "#263D3A" },
+      { name: "Stone", hex: "#D6D1C3" },
+      { name: "Slate blue", hex: "#596B80" },
+      { name: "Muted sage", hex: "#8C927C" }
+    ],
+    men: {
+      outfit: "A moisture-friendly T-shirt or base layer, trekking trousers and a fleece or warm mid-layer. Finish with a lightweight wind-resistant jacket.",
+      alternatives: [
+        "A long-sleeve athletic top with hiking trousers",
+        "A casual outdoor shirt over a thermal base layer"
+      ]
+    },
+    women: {
+      outfit: "A comfortable base layer with trekking leggings or hiking trousers, plus a fleece and lightweight jacket.",
+      alternatives: [
+        "A long-sleeve athletic top with outdoor trousers",
+        "A thermal top with relaxed hiking pants and a warm outer layer"
+      ]
+    },
+    footwear: "Proper trekking shoes or trail shoes with good grip. Prioritise comfort and traction over appearance.",
+    layering: "Bring a warm layer and a wind-resistant outer layer. You can remove layers as the day warms up.",
+    practicalNotes: [
+      "Check the forecast shortly before departure; temperatures can vary significantly by altitude.",
+      "Carry water, snacks and sunscreen.",
+      "Avoid new shoes that have not been broken in.",
+      "Keep your hands warm if you are sensitive to cold."
+    ],
+    photoNotes: "Deep greens, stone and slate blue work beautifully with misty mountain landscapes and forest trails. Keep bright accents subtle."
+  },
+  behindTheLens: {
+    theme: "Above the clouds",
+    intro: "A cinematic day of mountain ridges, mist, forest textures, pagodas and waterfalls. Focus on scale and atmosphere.",
+
+    photography: [
+      {
+        title: "The mountain ridge",
+        location: "Kew Mae Pan Nature Trail",
+        direction: "Capture the ridge as a wide landscape. Use people as small silhouettes to communicate the scale of the scenery.",
+        priority: "must-capture"
+      },
+      {
+        title: "The journey on foot",
+        location: "Kew Mae Pan",
+        direction: "Capture boots on the trail, walking silhouettes, hands holding railings and the path disappearing into the distance.",
+        priority: "must-capture"
+      },
+      {
+        title: "Forest textures",
+        location: "Ang Ka Nature Trail",
+        direction: "Look for moss, leaves, tree bark and atmospheric details. Use close focus and avoid making every frame a wide shot.",
+        priority: "must-capture"
+      },
+      {
+        title: "Symmetry and scale",
+        location: "Twin Royal Pagodas",
+        direction: "Use symmetrical framing for the pagodas and include garden details in the foreground.",
+        priority: "must-capture"
+      },
+      {
+        title: "Waterfall layers",
+        location: "Wachirathan Waterfall",
+        direction: "Capture one wide shot showing the waterfall in context, followed by a closer shot of water and mist.",
+        priority: "must-capture"
+      }
+    ],
+
+    reels: [
+      {
+        title: "A day above the clouds",
+        concept: "A cinematic journey from the early morning drive to the mountain panorama and waterfall.",
+        duration: "20–30 seconds",
+        shots: [
+          "Early morning departure",
+          "Road through the mountains",
+          "Shoes stepping onto the trail",
+          "First glimpse of the ridge",
+          "Mist moving across the landscape",
+          "Twin Pagodas",
+          "Ang Ka forest boardwalk",
+          "Wachirathan waterfall finale"
+        ],
+        editing: "Build gradually. Start with short travel clips, slow down for the ridge reveal and finish with the waterfall."
+      },
+      {
+        title: "Tiny details, massive landscapes",
+        concept: "Contrast the smallest forest details with the enormous scale of the mountains.",
+        duration: "15–20 seconds",
+        shots: [
+          "Close-up of moss",
+          "Water droplets on leaves",
+          "A narrow forest path",
+          "A person walking along the ridge",
+          "Wide mountain panorama",
+          "Waterfall in full view"
+        ],
+        editing: "Alternate close and wide shots. Use a consistent music beat to make the scale changes feel deliberate."
+      }
+    ],
+
+    transitions: [
+      {
+        title: "Trail-to-view tilt",
+        direction: "Start with the camera pointed at boots on the trail, then tilt up to reveal the view ahead.",
+        edit: "Use the upward movement as the reveal."
+      },
+      {
+        title: "Forest whip-pan",
+        direction: "Finish a forest clip with a quick horizontal pan and repeat the same movement at the mountain viewpoint.",
+        edit: "Match direction and speed."
+      },
+      {
+        title: "Walking cut",
+        direction: "Film someone walking across the frame. Repeat the same walking direction at the next location.",
+        edit: "Cut as the person crosses the centre of the frame."
+      }
+    ],
+
+    filmMoments: [
+      "An uninterrupted 8–10 second mountain panorama.",
+      "A person walking along the Kew Mae Pan ridge.",
+      "A few atmospheric Ang Ka forest details.",
+      "A steady, wide shot of the Twin Pagodas.",
+      "Waterfall ambience and a wide establishing shot."
+    ]
+  },
 };

@@ -85,5 +85,131 @@ window.DAY_2 = {
     "Carry cash.",
     "Wear comfortable walking shoes.",
     "Carry a light rain layer."
-  ]
+  ],
+  wardrobe: {
+    theme: "Slow living in the mountains",
+    intro: "Mae Kampong is all about greenery, wooden houses, streams and a relaxed village atmosphere. Keep the outfit casual, earthy and ready for a little walking.",
+    palette: [
+      { name: "Sage", hex: "#A5AA83" },
+      { name: "Warm beige", hex: "#D9D0B8" },
+      { name: "Earth brown", hex: "#765C49" },
+      { name: "Muted mustard", hex: "#C49A59" }
+    ],
+    men: {
+      outfit: "A breathable cotton T-shirt or casual shirt with relaxed trousers or shorts. An olive or beige overshirt works especially well.",
+      alternatives: [
+        "A polo with lightweight cargo trousers",
+        "A relaxed linen shirt with neutral shorts"
+      ]
+    },
+    women: {
+      outfit: "A relaxed blouse or cotton top with linen trousers. A casual midi dress also works well for the village and café stops.",
+      alternatives: [
+        "A comfortable matching co-ord set",
+        "A simple top with relaxed jeans or wide-leg trousers"
+      ]
+    },
+    footwear: "Grippy sneakers or comfortable walking shoes. Avoid smooth soles around wet paths and the waterfall.",
+    layering: "Carry a light jacket or overshirt for the cooler mountain setting and shaded village lanes.",
+    practicalNotes: [
+      "Choose clothes that can handle a little water or mud.",
+      "Avoid long hems that may drag on wet paths.",
+      "Bring a small bag for your phone, water and essentials."
+    ],
+    photoNotes: "Sage, beige and brown look natural against the forest. A muted mustard accent can add warmth without overpowering the scenery."
+  },
+  behindTheLens: {
+    theme: "Slow living in the mountains",
+    intro: "A quieter visual story built around wooden houses, flowing water, village lanes and misty mountain views.",
+
+    photography: [
+      {
+        title: "Village lanes",
+        location: "Mae Kampong Village",
+        direction: "Use the narrow roads and wooden houses as leading lines. Frame the scene through leaves or branches for depth.",
+        priority: "must-capture"
+      },
+      {
+        title: "Life by the stream",
+        location: "Mae Kampong Village",
+        direction: "Get low near the water. Capture reflections, small bridges, flowing water and details of the village around it.",
+        priority: "must-capture"
+      },
+      {
+        title: "Waterfall scale",
+        location: "Mae Kampong Waterfall",
+        direction: "Take one wide landscape shot and one closer detail shot. Include a person in the wide frame if practical.",
+        priority: "must-capture"
+      },
+      {
+        title: "Mountain perspective",
+        location: "Rabiang View",
+        direction: "Use the cafe setting as a foreground element and keep the mountain layers visible behind it.",
+        priority: "must-capture"
+      },
+      {
+        title: "A quieter moment",
+        location: "Village or cafe",
+        direction: "Capture candid moments: walking, looking out at the hills, holding a coffee or simply enjoying the surroundings.",
+        priority: "optional"
+      }
+    ],
+
+    reels: [
+      {
+        title: "POV: You found a village in the clouds",
+        concept: "A visual reveal of Mae Kampong, from the road into the village to the mountain views.",
+        duration: "15–20 seconds",
+        shots: [
+          "Road approaching Mae Kampong",
+          "First reveal of wooden village houses",
+          "Walking through a narrow lane",
+          "Stream or waterfall detail",
+          "Local food or coffee",
+          "Wide view from Rabiang View"
+        ],
+        editing: "Open with a quick reveal, then use slower clips for the village and scenery. Finish on the widest mountain view."
+      },
+      {
+        title: "A slow day in Mae Kampong",
+        concept: "An ambient, relaxed Reel focused on the sounds and small details of village life.",
+        duration: "15–20 seconds",
+        shots: [
+          "Footsteps on the village path",
+          "Water flowing beneath a bridge",
+          "Leaves moving in the breeze",
+          "Food being served",
+          "Coffee being poured",
+          "A quiet mountain view"
+        ],
+        editing: "Prioritise natural sound over music. Keep transitions gentle and avoid overly fast cuts."
+      }
+    ],
+
+    transitions: [
+      {
+        title: "Tree reveal",
+        direction: "Move behind a tree trunk until it fills the frame, then reveal the next scene from behind a similar foreground object.",
+        edit: "Cut at the moment the frame is covered."
+      },
+      {
+        title: "Water to coffee",
+        direction: "Capture flowing stream water, followed by coffee being poured from a similar camera angle.",
+        edit: "Match the movement and use the sound of pouring as the transition."
+      },
+      {
+        title: "Village pull-back",
+        direction: "Start close to a wooden house detail, then pull back to reveal the wider lane.",
+        edit: "Use as a short scene reveal rather than a fast transition."
+      }
+    ],
+
+    filmMoments: [
+      "A steady road approach into Mae Kampong.",
+      "A wide shot of the village with its wooden houses.",
+      "Five to eight seconds of clean stream ambience.",
+      "A steady waterfall shot.",
+      "A slow mountain panorama from Rabiang View."
+    ]
+  },
 };

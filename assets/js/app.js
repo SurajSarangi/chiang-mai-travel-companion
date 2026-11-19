@@ -346,6 +346,255 @@
   // ONE RENDERER FOR ALL DAYS
   // --------------------------------------------------
 
+  function renderWardrobe(day) {
+    const wardrobe = day.wardrobe;
+
+    if (!wardrobe) return "";
+
+    const palette = (wardrobe.palette || []).map(color => `
+      <div class="wardrobe-swatch">
+        <span class="swatch-colour" style="background-color: ${color.hex}"></span>
+        <span class="swatch-name">${color.name}</span>
+      </div>
+    `).join("");
+
+    function outfitCard(label, outfit) {
+      if (!outfit) return "";
+
+      const alternatives = (outfit.alternatives || []).map(item => `
+        <li>${item}</li>
+      `).join("");
+
+      return `
+        <article class="wardrobe-outfit">
+          <span class="wardrobe-eyebrow">${label}</span>
+          <p class="wardrobe-main-outfit">${outfit.outfit}</p>
+          ${alternatives ? `
+            <div class="wardrobe-alternatives">
+              <h5>Other ideas</h5>
+              <ul>${alternatives}</ul>
+            </div>
+          ` : ""}
+        </article>
+      `;
+    }
+
+    const practicalNotes = (wardrobe.practicalNotes || []).map(note => `
+      <li>${note}</li>
+    `).join("");
+
+    return `
+      <section class="wardrobe-section">
+        <div class="wardrobe-header">
+          <span class="section-kicker">WHAT TO WEAR</span>
+          <h2>${wardrobe.theme}</h2>
+          <p>${wardrobe.intro || ""}</p>
+        </div>
+
+        <div class="wardrobe-palette-panel">
+          <div>
+            <span class="wardrobe-eyebrow">THE COLOUR STORY</span>
+            <h3>Colours for the day</h3>
+          </div>
+          <div class="wardrobe-palette">
+            ${palette}
+          </div>
+        </div>
+
+        <div class="wardrobe-outfit-grid">
+          ${outfitCard("MEN'S INSPIRATION", wardrobe.men)}
+          ${outfitCard("WOMEN'S INSPIRATION", wardrobe.women)}
+        </div>
+
+        <div class="wardrobe-practical-grid">
+          <article class="wardrobe-practical-card">
+            <span class="wardrobe-eyebrow">FOOTWEAR</span>
+            <p>${wardrobe.footwear || ""}</p>
+          </article>
+
+          <article class="wardrobe-practical-card">
+            <span class="wardrobe-eyebrow">LAYERING</span>
+            <p>${wardrobe.layering || ""}</p>
+          </article>
+        </div>
+
+        ${practicalNotes ? `
+          <div class="wardrobe-notes">
+            <h3>Worth keeping in mind</h3>
+            <ul>${practicalNotes}</ul>
+          </div>
+        ` : ""}
+
+        ${wardrobe.photoNotes ? `
+          <div class="wardrobe-photo-note">
+            <span class="wardrobe-eyebrow">IN FRONT OF THE LENS</span>
+            <p>${wardrobe.photoNotes}</p>
+          </div>
+        ` : ""}
+      </section>
+    `;
+  }
+
+  function renderBehindTheLens(day) {
+    const content = day.behindTheLens;
+
+    if (!content) return "";
+
+    const photography = (content.photography || []).map(item => `
+      <article class="lens-shot">
+        <div class="lens-shot-heading">
+          <h4>${item.title}</h4>
+          <span class="lens-priority ${item.priority === "must-capture" ? "is-priority" : ""}">
+            ${item.priority === "must-capture" ? "Must capture" : "Optional"}
+          </span>
+        </div>
+        <p class="lens-location">${item.location}</p>
+        <p>${item.direction}</p>
+      </article>
+    `).join("");
+
+    const reels = (content.reels || []).map((reel, index) => `
+      <details class="lens-reel" ${index === 0 ? "open" : ""}>
+        <summary>
+          <div>
+            <span class="lens-eyebrow">REEL CONCEPT ${String(index + 1).padStart(2, "0")}</span>
+            <h4>${reel.title}</h4>
+            <p>${reel.duration}</p>
+          </div>
+          <span class="lens-expand">+</span>
+        </summary>
+
+        <div class="lens-reel-content">
+          <p>${reel.concept}</p>
+
+          <h5>Shot sequence</h5>
+          <ol class="lens-shot-list">
+            ${(reel.shots || []).map(shot => `<li>${shot}</li>`).join("")}
+          </ol>
+
+          <h5>Editing direction</h5>
+          <p>${reel.editing}</p>
+        </div>
+      </details>
+    `).join("");
+
+    const transitions = (content.transitions || []).map(item => `
+      <article class="lens-transition">
+        <h4>${item.title}</h4>
+        <p>${item.direction}</p>
+        <p><strong>In the edit:</strong> ${item.edit}</p>
+      </article>
+    `).join("");
+
+    const filmMoments = (content.filmMoments || []).map(item => `
+      <li>${item}</li>
+    `).join("");
+
+    const checklist = [
+      ...(content.photography || []).map(item => ({
+        title: item.title,
+        location: item.location
+      })),
+      ...(content.filmMoments || []).map(item => ({
+        title: item,
+        location: "Travel film"
+      }))
+    ];
+
+    const checklistHTML = checklist.map(item => `
+      <label class="lens-check-item">
+        <input type="checkbox">
+        <span>
+          <strong>${item.title}</strong>
+          <small>${item.location}</small>
+        </span>
+      </label>
+    `).join("");
+
+    return `
+      <section class="behind-lens-section">
+        <div class="behind-lens-header">
+          <span class="section-kicker">BEHIND THE LENS</span>
+          <h2>${content.theme}</h2>
+          <p>${content.intro}</p>
+        </div>
+
+        <div class="lens-content-grid">
+
+          <div class="lens-panel">
+            <div class="lens-panel-heading">
+              <span class="lens-icon">01</span>
+              <div>
+                <h3>Photography</h3>
+                <p>Frames worth bringing home</p>
+              </div>
+            </div>
+            <div class="lens-shot-grid">
+              ${photography}
+            </div>
+          </div>
+
+          <div class="lens-panel">
+            <div class="lens-panel-heading">
+              <span class="lens-icon">02</span>
+              <div>
+                <h3>Reels & content</h3>
+                <p>Stories to create from the day</p>
+              </div>
+            </div>
+            <div class="lens-reel-list">
+              ${reels}
+            </div>
+          </div>
+
+          <div class="lens-panel">
+            <div class="lens-panel-heading">
+              <span class="lens-icon">03</span>
+              <div>
+                <h3>Transitions</h3>
+                <p>Movement, reveals and match cuts</p>
+              </div>
+            </div>
+            <div class="lens-transition-list">
+              ${transitions}
+            </div>
+          </div>
+
+          <div class="lens-panel">
+            <div class="lens-panel-heading">
+              <span class="lens-icon">04</span>
+              <div>
+                <h3>Travel film moments</h3>
+                <p>Footage for the bigger story</p>
+              </div>
+            </div>
+            <ul class="lens-film-list">
+              ${filmMoments}
+            </ul>
+          </div>
+
+        </div>
+
+        <div class="lens-checklist-panel">
+          <div class="lens-panel-heading">
+            <span class="lens-icon">05</span>
+            <div>
+              <h3>Capture checklist</h3>
+              <p>Keep track of the moments you've captured</p>
+            </div>
+          </div>
+          <div class="lens-checklist">
+            ${checklistHTML}
+          </div>
+        </div>
+
+        <p class="lens-footer">
+          Capture the moments. Don't chase the checklist.
+        </p>
+      </section>
+    `;
+  }
+
   function renderDayPage(day) {
     const stops = day.stops || [];
     const reminders = day.reminders || day.checklist || [];
@@ -421,6 +670,10 @@
 
         ${renderSidebar(day)}
       </div>
+              
+      ${renderWardrobe(day)}
+
+      ${renderBehindTheLens(day)}
     `;
   }
 
@@ -429,9 +682,10 @@
   // --------------------------------------------------
 
   function bindChecklist() {
-    content.querySelectorAll(".check-item input").forEach(input => {
+  content.querySelectorAll(".check-item input, .lens-check-item input")
+    .forEach(input => {
       input.addEventListener("change", () => {
-        input.closest(".check-item").classList.toggle(
+        input.closest("label").classList.toggle(
           "done",
           input.checked
         );
