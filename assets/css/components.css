@@ -1641,3 +1641,508 @@
   font-size: 0.72rem;
   text-align: right;
 }
+
+/* =========================================
+   DARK MODE — COMPONENT REFINEMENTS
+========================================= */
+
+:root[data-theme="dark"] body,
+:root[data-theme="dark"] .overview-dialog {
+  background: var(--paper);
+  color: var(--ink);
+}
+
+:root[data-theme="dark"] .day-description,
+:root[data-theme="dark"] .side-card.light-card p,
+:root[data-theme="dark"] .check-item {
+  color: var(--text-secondary);
+}
+
+:root[data-theme="dark"] .day-hero,
+:root[data-theme="dark"] .placeholder-panel,
+:root[data-theme="dark"] .dialog-note {
+  background: var(--paper-deep);
+  color: var(--ink);
+}
+
+:root[data-theme="dark"] .stop-card {
+  background: rgba(255, 255, 255, .035);
+  border-color: var(--border-color);
+}
+
+:root[data-theme="dark"] .stop-card:hover {
+  background: #303c34;
+  border-color: rgba(232, 231, 218, .24);
+}
+
+:root[data-theme="dark"] .stop-card:has(.tag.optional),
+:root[data-theme="dark"] .stop-card:has(.tag.optional):hover {
+  background: rgba(212, 147, 114, .07);
+  border-color: rgba(212, 147, 114, .3);
+}
+
+:root[data-theme="dark"] .tag {
+  background: #354238;
+  color: #c1cdb8;
+}
+
+:root[data-theme="dark"] .tag.optional {
+  background: #49362e;
+  color: #e4ad91;
+}
+
+:root[data-theme="dark"] .side-card.light-card {
+  background: var(--paper-deep);
+  color: var(--ink);
+}
+
+:root[data-theme="dark"] .side-card.light-card .eyebrow {
+  color: var(--muted);
+}
+
+:root[data-theme="dark"] .side-card.light-card a {
+  color: var(--terracotta);
+}
+
+:root[data-theme="dark"] .side-card.light-card a:hover {
+  color: #f0c3a6;
+}
+
+:root[data-theme="dark"] .check-item input {
+  border-color: #829080;
+}
+
+:root[data-theme="dark"] .notice {
+  background: #3b3029;
+  color: #e4c8b5;
+}
+
+:root[data-theme="dark"] .overview-dialog {
+  border: 1px solid var(--border-color);
+}
+
+:root[data-theme="dark"] .close-button {
+  color: var(--ink);
+}
+
+/* Section navigation and day tabs */
+:root[data-theme="dark"] .day-tab:hover {
+  background: rgba(255, 255, 255, .06);
+}
+
+:root[data-theme="dark"] .day-tab.active {
+  background: #405747;
+  color: #f3f0e7;
+}
+
+:root[data-theme="dark"] .section-nav-tab {
+  border-color: var(--border-color);
+  color: var(--ink);
+}
+
+:root[data-theme="dark"] .section-nav-tab:hover,
+:root[data-theme="dark"] .section-nav-tab.active {
+  background: #405747;
+  border-color: #405747;
+  color: #fff;
+}
+
+/* Behind the lens and wardrobe */
+:root[data-theme="dark"] .lens-priority.is-priority {
+  background: #35483a;
+  color: #c4d3bd;
+}
+
+:root[data-theme="dark"] .lens-check-item {
+  background: var(--surface-secondary);
+}
+
+:root[data-theme="dark"] .wardrobe-palette-panel,
+:root[data-theme="dark"] .wardrobe-practical-card,
+:root[data-theme="dark"] .wardrobe-photo-note {
+  background: var(--surface-secondary);
+}
+
+:root[data-theme="dark"] .wardrobe-outfit,
+:root[data-theme="dark"] .wardrobe-notes,
+:root[data-theme="dark"] .lens-panel,
+:root[data-theme="dark"] .lens-checklist-panel {
+  background: var(--card-bg);
+  border-color: var(--border-color);
+}
+
+/* Travel page */
+:root[data-theme="dark"] .travel-hero {
+  background: #303c34;
+}
+
+:root[data-theme="dark"] .travel-hero h1 {
+  color: #e5ebdf;
+}
+
+:root[data-theme="dark"] .travel-hero p {
+  color: #bdc8ba;
+}
+
+:root[data-theme="dark"] .travel-timeline-card,
+:root[data-theme="dark"] .travel-detail-card,
+:root[data-theme="dark"] .travel-document-card {
+  background: var(--card-background);
+  border-color: var(--border-color);
+}
+
+:root[data-theme="dark"] .travel-timeline-marker span {
+  background: #35483a;
+  color: #d5e0cf;
+}
+
+:root[data-theme="dark"] .travel-timeline-item:not(:last-child)::after {
+  background: var(--border-color);
+}
+
+:root[data-theme="dark"] .travel-route,
+:root[data-theme="dark"] .travel-stay-dates {
+  background: var(--surface-secondary);
+}
+
+:root[data-theme="dark"] .travel-route strong {
+  color: var(--ink);
+}
+
+:root[data-theme="dark"] .travel-card-note,
+:root[data-theme="dark"] .travel-notes,
+:root[data-theme="dark"] .travel-document-item {
+  border-color: var(--border-color);
+}
+
+:root[data-theme="dark"] .travel-document-icon {
+  background: var(--surface-secondary);
+  color: var(--olive);
+}
+
+:root[data-theme="dark"] .status-confirmed {
+  background: #304738;
+  color: #c1d9c2;
+}
+
+:root[data-theme="dark"] .status-planned {
+  background: #49412e;
+  color: #e5d29b;
+}
+
+:root[data-theme="dark"] .status-pending {
+  background: #383d39;
+  color: #c0c4bc;
+}
+
+:root[data-theme="dark"] .travel-quick-panel {
+  background: var(--card-bg);
+  border-color: var(--border-color);
+}
+
+:root[data-theme="dark"] .travel-quick-panel summary,
+:root[data-theme="dark"] .travel-quick-content {
+  color: var(--ink);
+}
+
+:root[data-theme="dark"] .travel-emergency-row,
+:root[data-theme="dark"] .travel-phrase-row {
+  border-color: var(--border-color);
+}
+
+/* Smooth colour transitions */
+body,
+.topbar,
+.site-footer,
+.day-hero,
+.stop-card,
+.side-card,
+.lens-panel,
+.lens-checklist-panel,
+.wardrobe-outfit,
+.wardrobe-notes,
+.travel-detail-card,
+.travel-timeline-card,
+.travel-document-card,
+.overview-dialog {
+  transition:
+    background-color .25s ease,
+    color .25s ease,
+    border-color .25s ease;
+}
+/* Dark mode — cover button */
+:root[data-theme="dark"] .primary-button {
+  background: #e8e4d9;
+  color: #25352d;
+}
+
+:root[data-theme="dark"] .primary-button:hover {
+  background: #ffffff;
+  color: #1c2420;
+}
+
+/* =========================================
+   DARK MODE — COMPLETE TRAVEL PAGE
+========================================= */
+
+:root[data-theme="dark"] .travel-page {
+  color: var(--text-primary);
+}
+
+/* Hero */
+:root[data-theme="dark"] .travel-hero {
+  background: #303c34;
+}
+
+:root[data-theme="dark"] .travel-eyebrow,
+:root[data-theme="dark"] .travel-date,
+:root[data-theme="dark"] .travel-time-row small,
+:root[data-theme="dark"] .travel-facts small,
+:root[data-theme="dark"] .travel-stay-dates small,
+:root[data-theme="dark"] .travel-route small,
+:root[data-theme="dark"] .travel-transfer-route small {
+  color: #c3a783;
+}
+
+:root[data-theme="dark"] .travel-hero h1,
+:root[data-theme="dark"] .travel-section-heading h2 {
+  color: #e8e9df;
+}
+
+:root[data-theme="dark"] .travel-hero p,
+:root[data-theme="dark"] .travel-section-heading p {
+  color: #b8c1b5;
+}
+
+/* General cards */
+:root[data-theme="dark"] .travel-timeline-card,
+:root[data-theme="dark"] .travel-detail-card,
+:root[data-theme="dark"] .travel-document-card,
+:root[data-theme="dark"] .flight-card,
+:root[data-theme="dark"] .bus-card,
+:root[data-theme="dark"] .travel-quick-panel {
+  background: #252f29;
+  border-color: rgba(232, 231, 218, .14);
+  color: var(--text-primary);
+}
+
+:root[data-theme="dark"] .travel-timeline-card h3,
+:root[data-theme="dark"] .travel-detail-card h3,
+:root[data-theme="dark"] .travel-document-card h3,
+:root[data-theme="dark"] .travel-document-info strong {
+  color: #e8e9df;
+}
+
+:root[data-theme="dark"] .travel-timeline-card > p,
+:root[data-theme="dark"] .travel-muted {
+  color: #aab4a8;
+}
+
+/* Routes and stay details */
+:root[data-theme="dark"] .travel-route,
+:root[data-theme="dark"] .travel-stay-dates {
+  background: #303c34;
+}
+
+:root[data-theme="dark"] .travel-route strong,
+:root[data-theme="dark"] .travel-route > div > span,
+:root[data-theme="dark"] .travel-transfer-route > div {
+  color: #e8e9df;
+}
+
+:root[data-theme="dark"] .travel-route-arrow {
+  color: #c3a783;
+}
+
+:root[data-theme="dark"] .travel-card-note,
+:root[data-theme="dark"] .travel-notes {
+  border-color: var(--border-color);
+  color: #b8b2a3 !important;
+}
+
+:root[data-theme="dark"] .travel-text-link {
+  color: #b6c9ae;
+}
+
+/* Timeline */
+:root[data-theme="dark"] .travel-timeline-marker span {
+  background: #405747;
+  color: #e8e9df;
+}
+
+:root[data-theme="dark"] .travel-timeline-item:not(:last-child)::after {
+  background: #536255;
+}
+
+/* Flight cards */
+:root[data-theme="dark"] .flight-card-header {
+  background: #252f29;
+}
+
+:root[data-theme="dark"] .flight-airline-icon {
+  background: #35483a;
+}
+
+:root[data-theme="dark"] .flight-airline strong {
+  color: #e4ebdf;
+}
+
+:root[data-theme="dark"] .flight-airline span:last-child,
+:root[data-theme="dark"] .flight-endpoint small,
+:root[data-theme="dark"] .bus-endpoint small {
+  color: #a5ada2;
+}
+
+:root[data-theme="dark"] .flight-route-display,
+:root[data-theme="dark"] .bus-route-display {
+  background: #303c34;
+}
+
+:root[data-theme="dark"] .flight-endpoint strong,
+:root[data-theme="dark"] .bus-endpoint strong {
+  color: #e8e9df;
+}
+
+:root[data-theme="dark"] .flight-endpoint > span,
+:root[data-theme="dark"] .bus-endpoint > span {
+  color: #cbd4c8;
+}
+
+:root[data-theme="dark"] .flight-route-line {
+  border-color: #718071;
+}
+
+:root[data-theme="dark"] .flight-route-line span {
+  background: #303c34;
+}
+
+:root[data-theme="dark"] .flight-route-middle,
+:root[data-theme="dark"] .bus-route-middle {
+  color: #c3a783;
+}
+
+:root[data-theme="dark"] .flight-route-middle small,
+:root[data-theme="dark"] .bus-route-middle small {
+  color: #a5ada2;
+}
+
+:root[data-theme="dark"] .flight-card-date,
+:root[data-theme="dark"] .bus-date {
+  color: #c3a783;
+  border-color: var(--border-color);
+}
+
+:root[data-theme="dark"] .flight-card-details small,
+:root[data-theme="dark"] .bus-ticket-footer small {
+  color: #c3a783;
+}
+
+:root[data-theme="dark"] .flight-card-details strong,
+:root[data-theme="dark"] .bus-ticket-footer strong {
+  color: #e1e6dc;
+}
+
+/* Bus ticket */
+:root[data-theme="dark"] .bus-card-top {
+  background: #35483a;
+}
+
+:root[data-theme="dark"] .bus-card-top h3 {
+  color: #e8e9df;
+}
+
+:root[data-theme="dark"] .bus-card-label {
+  color: #c3a783;
+}
+
+:root[data-theme="dark"] .bus-icon {
+  background: #29362e;
+}
+
+:root[data-theme="dark"] .bus-ticket-footer {
+  background: #252f29;
+  border-color: #718071;
+}
+
+/* Travel documents */
+:root[data-theme="dark"] .travel-document-item {
+  border-color: var(--border-color);
+}
+
+:root[data-theme="dark"] .travel-document-icon {
+  background: #35483a;
+  color: #c1d1b9;
+}
+
+:root[data-theme="dark"] .travel-document-link {
+  color: #b6c9ae;
+}
+
+:root[data-theme="dark"] .travel-document-empty {
+  color: #999f96;
+}
+
+/* Status labels */
+:root[data-theme="dark"] .status-confirmed {
+  background: #304738;
+  color: #c1d9c2;
+}
+
+:root[data-theme="dark"] .status-planned {
+  background: #49412e;
+  color: #e5d29b;
+}
+
+:root[data-theme="dark"] .status-pending {
+  background: #383d39;
+  color: #c0c4bc;
+}
+
+/* Emergency numbers and Thai phrases */
+:root[data-theme="dark"] .travel-quick-panel summary {
+  color: #e8e9df;
+}
+
+:root[data-theme="dark"] .travel-quick-icon {
+  background: #35483a;
+  color: #c1d1b9;
+}
+
+:root[data-theme="dark"] .travel-quick-title strong,
+:root[data-theme="dark"] .travel-phrase-row strong {
+  color: #e8e9df;
+}
+
+:root[data-theme="dark"] .travel-quick-title small,
+:root[data-theme="dark"] .travel-emergency-row small,
+:root[data-theme="dark"] .travel-quick-note,
+:root[data-theme="dark"] .travel-phrase-row small {
+  color: #a5ada2;
+}
+
+:root[data-theme="dark"] .travel-quick-content {
+  border-color: var(--border-color);
+}
+
+:root[data-theme="dark"] .travel-emergency-row,
+:root[data-theme="dark"] .travel-phrase-row {
+  border-color: var(--border-color);
+}
+
+:root[data-theme="dark"] .travel-phone-number {
+  color: #c1d1b9;
+}
+
+:root[data-theme="dark"] .travel-phrase-category {
+  color: #c3a783;
+}
+
+:root[data-theme="dark"] .travel-pronunciation {
+  color: #b6c9ae;
+}
+
+/* Travel footer */
+:root[data-theme="dark"] .travel-footer {
+  border-color: var(--border-color);
+  color: #a5ada2;
+}

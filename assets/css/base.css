@@ -34,3 +34,32 @@ a { color: inherit; }
 .text-button { border: 0; background: transparent; color: var(--olive-dark); font-size: 11px; font-weight: 700; padding: 10px 0; }
 .section-title { margin: 0; font: 500 clamp(36px, 5vw, 64px)/1.05 var(--serif); letter-spacing: -.04em; }
 .section-title em, h1 em, h2 em { color: var(--terracotta); font-weight: 500; }
+
+
+/* =========================================
+   THEME SYSTEM
+========================================= */
+
+:root {color-scheme: light; --text-primary: var(--ink); --text-secondary: var(--muted); --card-bg: var(--white); --card-background: var(--white); --surface-secondary: var(--paper-deep); --border-color: var(--line); --accent-color: var(--olive); --forest-green: var(--olive-dark); }
+
+/* Explicit dark theme */
+:root[data-theme="dark"] {color-scheme: dark; --paper: #1c2420; --paper-deep: #252f29; --ink: #eeeae0; --muted: #a5ada2; --olive: #a0ae91; --olive-dark: #344b3b; --terracotta: #d49372; --line: rgba(232, 231, 218, .14); --white: #29342d; --text-primary: #eeeae0; --text-secondary: #a5ada2; --card-bg: #252f29; --card-background: #252f29; --surface-secondary: #303c34; --border-color: rgba(232, 231, 218, .14); --accent-color: #c69a78; --forest-green: #344b3b; --shadow: 0 18px 50px rgba(0, 0, 0, .24); }
+
+/* Follow device appearance when no manual choice exists */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme]) {color-scheme: dark; --paper: #1c2420; --paper-deep: #252f29; --ink: #eeeae0; --muted: #a5ada2; --olive: #a0ae91; --olive-dark: #344b3b; --terracotta: #d49372; --line: rgba(232, 231, 218, .14); --white: #29342d; --text-primary: #eeeae0; --text-secondary: #a5ada2; --card-bg: #252f29; --card-background: #252f29; --surface-secondary: #303c34; --border-color: rgba(232, 231, 218, .14); --accent-color: #c69a78; --forest-green: #344b3b; --shadow: 0 18px 50px rgba(0, 0, 0, .24); } 
+}
+
+/* Topbar controls */
+.topbar-actions {display: flex; align-items: center; gap: 22px; }
+
+.theme-toggle {display: inline-flex; align-items: center; gap: 8px; padding: 8px 0; border: 0; background: transparent; color: var(--ink); font-size: 10px; font-weight: 700; letter-spacing: .12em; cursor: pointer; }
+
+.theme-toggle > span:first-child {font-size: 16px; line-height: 1; }
+
+.theme-toggle:hover {color: var(--terracotta); }
+
+@media (max-width: 520px) {
+  .topbar-actions {gap: 15px; }
+  .theme-toggle-label {display: none; }
+}
