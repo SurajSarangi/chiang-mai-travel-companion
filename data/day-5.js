@@ -3,96 +3,91 @@ window.DAY_5 = {
   number: "05",
   date: "Wednesday, December 9",
   shortDate: "DEC 09",
-  title: "Mountain views & departure",
-  subtitle: "Mon Jam",
-  description: "A lighter final morning in the mountains, with flower gardens, scenic viewpoints and a relaxed return to Chiang Mai before flying to Bangkok.",
+  title: "A slow day & Bangkok",
+  subtitle: "Nimmanhaemin",
+  description: "A relaxed final day in Chiang Mai. Ease into the morning with coffee and breakfast, explore Nimmanhaemin's cafes and shops, enjoy a massage and good food, then collect your luggage and head to the airport for the next chapter in Bangkok.",
+  image: "../images/day-5-nimmanhaemin.jpg",
 
-  image: "https://images.unsplash.com/photo-1708450541497-151d7a034df0?auto=format&fit=crop&w=1800&q=85",
-
-  transport: "Private car",
-  duration: "Flexible morning",
+  transport: "Local transport",
+  duration: "Flexible day",
   budget: "Not itemised",
 
   stops: [
     {
       name: "Hotel checkout and luggage storage",
-      description: "Check out of the hotel and leave luggage behind.",
-      detail: "Complete checkout and arrange luggage storage before leaving for Mon Jam.",
+      description: "Check out and leave your luggage safely at the hotel.",
+      detail: "Complete checkout in the morning and confirm that the hotel can store your luggage until the evening.",
       tags: ["Hotel", "Essential"]
     },
     {
-      name: "Mon Jam",
-      description: "Mountain viewpoints and panoramic scenery.",
-      detail: "Explore the Mon Jam highlands and enjoy the mountain scenery.",
-      tags: ["Mountain", "Main stop"]
+      name: "Nimmanhaemin breakfast and coffee",
+      description: "A slow morning exploring the neighbourhood's cafes.",
+      detail: "Sleep in, enjoy a relaxed breakfast and visit one of the neighbourhood's coffee spots. There is no need to rush between places.",
+      tags: ["Coffee", "Breakfast", "Relaxed"]
     },
     {
-      name: "Ying Yong Flower Garden",
-      description: "Flower fields and photography spots.",
-      detail: "Visit the flower garden and enjoy the photography opportunities.",
-      tags: ["Garden", "Main stop"]
+      name: "Nimman neighbourhood exploration",
+      description: "Browse independent shops, boutiques and creative spaces.",
+      detail: "Explore the neighbourhood at your own pace. Leave room for spontaneous cafe stops, souvenirs and shopping.",
+      tags: ["Shopping", "Explore"]
     },
     {
-      name: "Scenic mountain cafe",
-      description: "A relaxed final coffee or early lunch stop.",
-      detail: "Enjoy coffee or an early lunch around Mon Jam.",
-      tags: ["Cafe", "Main stop"]
-    },
-    {
-      name: "Return to Chiang Mai and collect luggage",
-      description: "Return to the city and collect stored luggage.",
-      detail: "Return from Mon Jam, collect luggage from the hotel and prepare for the airport transfer.",
-      tags: ["Return", "Essential"]
-    },
-    {
-      name: "Airport transfer",
-      description: "Leave for the airport around 6–6:30 PM.",
-      detail: "Flight to Bangkok is around 9 PM. Keep the return journey and airport buffer protected.",
-      tags: ["Departure", "Essential"]
+      name: "Massage and relaxation",
+      description: "Take time to unwind before the flight.",
+      detail: "Fit in a traditional Thai massage or another"
     }
   ],
 
   food: [
     {
-      name: "Breakfast",
-      detail: "Breakfast before leaving for Mon Jam.",
+      name: "Nimman breakfast",
+      detail: "A relaxed breakfast at a neighbourhood cafe.",
       type: "BREAKFAST"
     },
     {
-      name: "Coffee and early lunch",
-      detail: "A relaxed cafe stop around Mon Jam.",
-      type: "CAFE / LUNCH"
+      name: "Coffee and dessert",
+      detail: "Explore one of Nimman's specialty coffee shops or dessert spots.",
+      type: "COFFEE"
     },
     {
-      name: "Late lunch or refreshments",
-      detail: "Eat or grab refreshments after returning to Chiang Mai.",
-      type: "LATE LUNCH"
+      name: "Lunch in Nimman",
+      detail: "Enjoy a proper meal before the airport journey.",
+      type: "LUNCH"
+    },
+    {
+      name: "Airport refreshments",
+      detail: "Keep some time for a snack or refreshments before boarding.",
+      type: "OPTIONAL"
     }
   ],
 
   evening: [
-    "Collect luggage from the hotel.",
-    "Airport transfer around 6–6:30 PM.",
-    "Flight to Bangkok around 9 PM."
+    "Return to the hotel and collect stored luggage.",
+    "Leave for Chiang Mai International Airport around 6–6:30 PM.",
+    "Thai AirAsia FD 3426 departs at 9:20 PM for Bangkok Don Mueang.",
+    "Arrive in Bangkok at approximately 10:40 PM. The holiday continues!"
   ],
 
   highlights: [
-    "Mountain scenery and cool weather.",
-    "Flower gardens and photography.",
-    "A relaxed final day rather than another exhausting excursion."
+    "A slow, relaxed morning in Nimmanhaemin.",
+    "Good coffee, food, shopping and a massage.",
+    "A chance to recharge before the Bangkok chapter.",
+    "An optional mountain excursion only if timing and transport work."
   ],
 
   reminders: [
     "Complete hotel checkout.",
-    "Arrange luggage storage at the hotel.",
-    "Confirm the private car and return timing.",
+    "Confirm luggage storage with the hotel.",
+    "Keep the day flexible and avoid overplanning.",
     "Collect luggage before heading to the airport.",
-    "Protect the airport buffer.",
-    "Akha Farmville is excluded."
+    "Leave for the airport around 6–6:30 PM.",
+    "Keep the airport buffer protected.",
+    "Mon Jam and Ying Yong Flower Garden are optional, not default stops.",
+    "Alpaca Sheep Farm is included."
   ],
   wardrobe: {
-    theme: "A soft goodbye to the North",
-    intro: "A relaxed morning among flower gardens and mountain scenery before the journey to Bangkok. Keep it light, comfortable and photograph-friendly.",
+    theme: "Relaxed city farewell",
+    intro: "A comfortable, easygoing day exploring Nimmanhaemin before the flight to Bangkok. Keep the outfit stylish but practical for walking, shopping, a massage and travelling.",
     palette: [
       { name: "Soft lavender", hex: "#C9B8D0" },
       { name: "Cream", hex: "#E9DCC6" },
@@ -113,7 +108,7 @@ window.DAY_5 = {
         "A linen co-ord set in a warm neutral shade"
       ]
     },
-    footwear: "Comfortable walking shoes or sneakers for the gardens and uneven paths.",
+    footwear: "Comfortable sneakers or supportive sandals for walking around Nimman and travelling to the airport.",
     layering: "A light jacket or cardigan for the morning. Keep the rest of the outfit comfortable for the airport transfer.",
     practicalNotes: [
       "Keep the airport journey in mind when choosing footwear and accessories.",
@@ -128,52 +123,59 @@ window.DAY_5 = {
 
     photography: [
       {
-        title: "Flowers in the foreground",
-        location: "Ying Yong Flower Garden",
-        direction: "Get low and use flowers in the foreground to create depth. Capture both close details and wider field compositions.",
+        title: "A slow morning in Nimman",
+        location: "Nimmanhaemin",
+        direction: "Capture cafe exteriors, coffee being prepared, street details and a relaxed morning walk. Focus on the neighbourhood atmosphere.",
         priority: "must-capture"
       },
       {
-        title: "Mountain portraits",
-        location: "Mon Jam",
-        direction: "Use the mountain layers as a backdrop. Try one environmental portrait with plenty of landscape around the subject.",
+        title: "Coffee and little details",
+        location: "Nimman cafes",
+        direction: "Capture coffee pours, pastries, interiors, signage and candid moments. Try a mixture of close-ups and environmental shots.",
         priority: "must-capture"
       },
       {
-        title: "A quiet coffee moment",
-        location: "Scenic mountain cafe",
-        direction: "Capture coffee, cafe details and a candid moment looking out at the view.",
+        title: "A little shopping",
+        location: "Nimmanhaemin shops",
+        direction: "Film interesting storefronts, handmade objects, souvenirs and small discoveries from the neighbourhood.",
         priority: "optional"
       },
       {
-        title: "One final photograph together",
-        location: "Mon Jam viewpoint",
-        direction: "Take one intentional photograph of both travellers with the landscape behind them. Use a timer or ask someone to take it.",
+        title: "One last photograph together",
+        location: "Nimmanhaemin",
+        direction: "Take one relaxed photograph together in a cafe or a visually interesting neighbourhood spot. Make it feel candid rather than staged.",
         priority: "must-capture"
       },
       {
         title: "The journey continues",
-        location: "Airport or flight",
-        direction: "Capture luggage, airport signs, aircraft wing and the view from the window as the Northern Escape comes to a close.",
+        location: "Chiang Mai Airport or Bangkok arrival",
+        direction: "Capture luggage, airport signs, aircraft wing and the Bangkok night arrival. Use this to transition into the next chapter of the trip.",
+        priority: "must-capture"
+      },
+      {
+        title: "Optional mountain escape",
+        location: "Mon Jam and Ying Yong Flower Garden",
+        direction: "If the optional excursion happens, capture flower details, mountain layers and one final environmental portrait together.",
         priority: "optional"
       }
     ],
 
     reels: [
       {
-        title: "The last morning in Chiang Mai",
-        concept: "A gentle final chapter with flower fields, mountain views and one last coffee.",
+        title: "A slow day in Chiang Mai",
+        concept: "A relaxed final day built around coffee, neighbourhood discoveries, shopping and a little time to unwind.",
         duration: "15–20 seconds",
         shots: [
-          "Leaving the hotel",
-          "Road to Mon Jam",
-          "Flowers in close-up",
-          "Walking through the garden",
-          "Mountain viewpoint",
-          "Coffee at the scenic cafe",
-          "Final portrait together"
+          "Opening the hotel curtains or leaving the hotel",
+          "Coffee being poured",
+          "Walking through Nimman",
+          "A favourite cafe or dessert",
+          "Browsing a shop or picking up souvenirs",
+          "A relaxed moment together",
+          "Collecting luggage",
+          "The airport and flight to Bangkok"
         ],
-        editing: "Use slower cuts and warm music. Give the final portrait a little more screen time."
+        editing: "Use warm tones and slower cuts. Let the day feel unhurried, then build towards the airport departure."
       },
       {
         title: "Five days in Northern Thailand",
@@ -185,10 +187,10 @@ window.DAY_5 = {
           "Day 2: Mae Kampong village",
           "Day 3: Doi Inthanon mountain ridge",
           "Day 4: White Temple costume reveal",
-          "Day 5: Mon Jam flower field",
-          "Final shot: the journey to Bangkok"
+          "Day 5: Nimman coffee and neighbourhood moments",
+          "Final shot: the flight to Bangkok and the city at night"
         ],
-        editing: "Use one recognisable shot per day. Build towards the final shot and make the transition to Bangkok feel like the next chapter, not the end of the entire trip."
+        editing: "Use one recognisable shot per day. Build towards the final shot, then transition into Bangkok. This is the end of the Northern Thailand chapter, not the entire holiday."
       }
     ],
 

@@ -11,7 +11,7 @@ window.DAY_0 = {
     "An overnight ride north. Get comfortable, keep the essentials close and let the city give way to the mountains while you sleep.",
 
   image:
-    "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1800&q=85",
+    "../images/day-0-journey.jpg",
 
   transport: "Overnight bus",
   duration: "Overnight",

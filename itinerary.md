@@ -28,7 +28,7 @@
 - Ending the evening at the Saturday Walking Street and a live jazz bar.
 
 **Places to visit**
-1. Jing Jai Market — local crafts, food, produce and weekend market atmosphere.
+1. Coconut Market — local crafts, food, produce and weekend market atmosphere.
 2. Wat Phra Singh — beautiful Lanna architecture and golden temple grounds.
 3. Wat Chedi Luang — impressive ancient brick chedi.
 4. Wat Chiang Man — optional historic temple.
@@ -185,65 +185,100 @@
 ---
 
 ## DAY 5 — WEDNESDAY, DECEMBER 9
-# MON JAM: MOUNTAIN VIEWS & DEPARTURE
+# A SLOW DAY & BANGKOK
 
-**Day theme:** A lighter final morning in the mountains, with flower gardens, scenic viewpoints and a relaxed return to Chiang Mai before flying to Bangkok.
+**Day theme:** Ease into the final day in Chiang Mai with a relaxed morning in Nimmanhaemin. Enjoy good coffee, explore independent shops, have a massage, pick up souvenirs and recharge before flying to Bangkok.
 
 **What we're doing**
 - Checking out of the hotel and leaving luggage behind.
-- Driving to the Mon Jam highlands.
-- Exploring panoramic mountain viewpoints.
-- Visiting a flower garden.
-- Having coffee or an early lunch.
-- Returning to the city and heading to the airport.
+- Sleeping in and enjoying a relaxed breakfast.
+- Exploring Nimmanhaemin's cafes, boutiques and creative spaces.
+- Enjoying a traditional Thai massage or another relaxing treatment.
+- Having a good lunch and picking up souvenirs.
+- Returning to the hotel to collect luggage.
+- Heading to Chiang Mai Airport in the evening.
 
-**Places to visit**
-1. Mon Jam — mountain viewpoints and panoramic scenery.
-2. Ying Yong Flower Garden — flower fields and photo spots.
-3. Scenic mountain cafe — a relaxed final stop.
+**Places to explore**
+1. Nimmanhaemin — cafes, independent boutiques, shopping and neighbourhood exploration.
+2. One Nimman — shopping, food and a relaxed walk around the complex.
+3. Maya Lifestyle Shopping Center — optional shopping and refreshments.
+4. Local massage and wellness establishments around Nimman.
+
+**Optional alternative: Mon Jam excursion**
+- Mon Jam — mountain viewpoints and panoramic scenery.
+- Ying Yong Flower Garden — flower fields and photography spots.
+- A scenic mountain cafe for coffee or an early lunch.
+
+*Mon Jam is not part of the default itinerary. Consider it only if energy, weather and transport arrangements allow a reliable return to Chiang Mai by mid-afternoon. The airport departure buffer must not be compromised.*
 
 **Food & cafe hopping**
-- Breakfast before departure.
-- Coffee and early lunch around Mon Jam.
-- Late lunch or refreshments back in Chiang Mai.
+- Breakfast at a neighbourhood cafe in Nimman.
+- Specialty coffee and dessert.
+- Lunch at a restaurant around Nimman.
+- Pick up refreshments or snacks before heading to the airport.
 
 **Evening**
-- Collect luggage.
+- Return to the hotel and collect stored luggage.
 - Airport transfer around 6–6:30 PM.
-- Flight to Bangkok around 9 PM.
+- Thai AirAsia FD 3426 departs Chiang Mai at 9:20 PM.
+- Arrival at Don Mueang Airport (DMK), Bangkok, at approximately 10:40 PM.
 
 **Highlights**
-- Mountain scenery and cool weather.
-- Flower gardens and photography.
-- A relaxed final day rather than another exhausting excursion.
+- A slow and relaxed morning in Nimmanhaemin.
+- Exploring Chiang Mai's creative cafe and shopping scene.
+- Good food, coffee and a little self-care.
+- A chance to recharge before the Bangkok chapter.
 
-**Suggested pace:** Light and flexible. Akha Farmville is excluded to protect the airport buffer.
+**Suggested pace:** Light and flexible. Keep the day spontaneous and avoid overplanning. Mon Jam and Ying Yong Flower Garden remain optional alternatives. Akha Farmville is excluded to protect the airport buffer.
 
 ---
 
 # FOOD & CAFE HOPPING MASTER LIST
 
-### Northern Thai food and local eats
-- Huen Muan Jai — Northern Thai cuisine.
-- Khao Soi Mueang Klaeng — khao soi.
-- Khao Soi Arak — another khao soi option.
-- Kuaytiaw 3 Baht — small noodle bowls.
+### High-priority restaurants
 
-### Coffee and specialty cafes
-- GRAPH Cafe — cold brew.
-- Akha Ama Phrasing — dirty latte.
-- Baristro Asian Style — Kyoto-inspired aesthetics.
+- KaPaO — Thai kaprao.
+- Yook Samai — Khao Soi and Northern Thai food.
+- Huen Muan Jai — Northern Thai cuisine.
+- The House by Ginger — special dinner option.
+- The Faces — alternative special dinner option.
+
+*The House by Ginger and The Faces are alternatives. Visiting both is not necessary.*
+
+### Additional restaurants to explore
+
+- Neng Clay Roast.
+- Salt and Fire.
+- Baan Piamsuk.
+- Vorra Bistro.
+- Baan Mae.
+
+### Coffee and desserts — Priority
+
+- Roast8ry.
+- GRAPH Cafe — specialty coffee and cold brew.
+- Akha Ama Phrasing — try the dirty latte.
+- Obchoei Original Homemade — desserts and homemade treats.
+
+### Optional cafes and dessert stops
+
+- Always LOAF U.
+- Arabica.
 - Proudproudproud — forest/streamside cafe near Mae Kampong.
+- Baristro Asian Style.
+- Jungle de Cafe.
 - The Giant Chiangmai — giant-tree cafe.
 - Rabiang View — mountain village views.
 - Chom Cafe — garden-themed cafe.
 
-### Restaurants and desserts
-- Nara Thai Cuisine, One Nimman — Pad Thai and mango sticky rice.
+### Other local food experiences
+
+- Kuaytiaw 3 Baht — small noodle bowls.
 - Local village restaurants around Mae Kampong.
 - Street food at Saturday and Sunday Walking Streets.
+- Nara Thai Cuisine, One Nimman — Pad Thai and mango sticky rice.
 
-*Opening days and exact branch details should be checked before departure.*
+*The restaurants and cafes should be distributed across the five days based on location and itinerary flow rather than treated as a checklist. Opening days, hours, menus and exact branch details should be checked before departure.*
 
 ---
 
@@ -271,17 +306,18 @@
 | Mae Kampong private car | ฿2,500–3,500 |
 | Doi Inthanon private car | ฿3,000–4,500 |
 | Chiang Rai private car | ฿4,500–6,000 |
-| Mon Jam private car | ฿2,000–3,000 |
 | Food and cafes | ฿5,000–7,000 |
 | Local transport | ฿700–1,200 |
 | Entry and guide fees | ฿1,000–1,600 |
 | Nightlife | ฿1,000–2,000 |
 | Miscellaneous | ฿1,000–2,000 |
-| **Total** | **฿20,700–30,800** |
+| **Total** | **฿18,700–27,800** |
 
-**Comfortable target budget: ฿26,000–28,000 for two.**
+**Optional additional expense:** Mon Jam private car, approximately ฿2,000–3,000.
 
-Excludes accommodation, Bangkok–Chiang Mai bus, Chiang Mai–Bangkok flight and major shopping.
+**Comfortable target budget: ฿23,000–25,000 for two.**
+
+Excludes accommodation, Bangkok–Chiang Mai bus, Chiang Mai–Bangkok flight and major shopping. Actual costs will depend on transport arrangements, food choices and activities.
 
 ---
 
@@ -292,10 +328,12 @@ Excludes accommodation, Bangkok–Chiang Mai bus, Chiang Mai–Bangkok flight an
 3. Private car and Kew Mae Pan guide for Doi Inthanon.
 4. Private car for Chiang Rai, confirming all four stops and photoshoot time.
 5. Thai costume rental/photoshoot at the White Temple.
-6. Private car for Mon Jam.
-7. Baan Kang Wat workshop, if interested.
-8. Check Chiang Mai Design Week programme for Dec 5.
-9. Confirm bus arrival terminal and actual arrival time.
+6. Baan Kang Wat workshop, if interested.
+7. Check Chiang Mai Design Week programme for Dec 5.
+8. Confirm bus arrival terminal and actual arrival time.
+9. Confirm hotel luggage storage for arrival and departure days.
 10. Confirm flight departure and check-in requirements.
+11. Arrange the Chiang Mai Airport transfer for Dec 9.
+12. If choosing the optional Mon Jam excursion, arrange transport with a guaranteed return by mid-afternoon.
 
 **Travel style:** Private transport for long excursions, local transport in the city, plenty of photography and cafe stops, good food, and enough downtime to enjoy the destinations rather than rushing through them.

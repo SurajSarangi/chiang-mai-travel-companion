@@ -262,15 +262,18 @@ timeline: [
     },
     {
       id: "mon-jam",
-      title: "Mon Jam day trip",
+      title: "Optional Mon Jam excursion",
       date: "Wednesday, December 9",
       type: "private-car",
-      status: "to-book",
+      status: "optional",
       pickup: "ibis Styles Chiang Mai",
-      destination: "Mon Jam",
+      destination: "Mon Jam and Ying Yong Flower Garden",
       notes: [
-        "Keep the airport departure buffer in mind.",
-        "Akha Farmville is excluded from this day's plan."
+        "Not part of the default itinerary.",
+        "Consider only if energy, weather and transport arrangements allow.",
+        "Arrange a guaranteed return to Chiang Mai by mid-afternoon.",
+        "Do not compromise the 6:00–6:30 PM airport departure buffer.",
+        "Alpaca Sheep Farm is included."
       ]
     },
     {
@@ -282,8 +285,13 @@ timeline: [
       pickup: "ibis Styles Chiang Mai",
       destination: "Chiang Mai International Airport",
       departure: "Around 6:00–6:30 PM",
-      notes: ["Collect luggage from the hotel before departure."]
-    }
+      notes: [
+        "Collect stored luggage from the hotel before departure.",
+        "Keep the airport departure buffer protected.",
+        "Thai AirAsia FD 3426 departs at 9:20 PM from Terminal 2.",
+        "The flight arrives at Don Mueang Airport (DMK), Bangkok."
+      ]
+    },
   ],
 
   documents: {

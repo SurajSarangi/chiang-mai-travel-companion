@@ -6,7 +6,7 @@ window.DAY_2 = {
   title: "Mountain village escape",
   subtitle: "Mae Kampong",
   description: "Leave the city behind for a day of mountain air, forest walks, wooden village houses, waterfalls and scenic coffee stops. Return to Chiang Mai for the Sunday night market.",
-  image: "https://images.unsplash.com/photo-1676699760164-97c864128b7f?auto=format&fit=crop&w=1800&q=85",
+  image: "../images/day-2-mae-kampong.jpg",
   transport: "Private car",
   duration: "Relaxed daytime excursion",
   budget: "Not itemised",

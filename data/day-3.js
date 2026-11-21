@@ -6,7 +6,7 @@ window.DAY_3 = {
   title: "Thailand's highest mountain",
   subtitle: "Doi Inthanon",
   description: "A full mountain adventure featuring a guided nature trek, cloud forest, panoramic ridge views, royal pagodas and a spectacular waterfall.",
-  image: "https://images.unsplash.com/photo-1512553840337-276c0d80a43a?auto=format&fit=crop&w=1800&q=85",
+  image: "../images/day-3-doi-inthanon.jpg",
 
   transport: "Private car",
   duration: "Full-day excursion",

@@ -7,7 +7,7 @@ window.DAY_4 = {
   subtitle: "Chiang Rai",
   description: "A road trip to Chiang Rai to experience some of Northern Thailand's most unusual and visually striking architecture, including a traditional Thai costume photoshoot.",
 
-  image: "https://images.unsplash.com/photo-1779204446309-c50282b68735?auto=format&fit=crop&w=1800&q=85",
+  image: "../images/day-4-chiang-rai.jpg",
 
   transport: "Private car",
   duration: "Long road trip",

@@ -5,11 +5,11 @@ window.DAY_1 = {
   title: "Culture, art & city life",
   subtitle: "Chiang Mai",
   description: "A first look at Chiang Mai: Lanna temple architecture, independent creative spaces, the energy of Design Week and a Saturday night that ends with live jazz.",
-  image: "https://images.unsplash.com/photo-1563492065599-3520f775eeed?auto=format&fit=crop&w=1800&q=85",
+  image: "../images/day-1-chiang-mai.jpg",
   transport: "Local transport",
   duration: "Flexible arrival day",
   budget: "To be estimated",
-  timelineNotice:"Arrival-day pacing: the order is a planning sequence, not a fixed timetable. Jing Jai Market is especially dependent on the actual arrival time and energy after the overnight bus.",
+  timelineNotice:"Arrival-day pacing: the order is a planning sequence, not a fixed timetable. Coconut Market depends on the actual arrival time and energy after the overnight bus.",
   timelineKicker: "FLEXIBLE ORDER · NOT TIMED",
   arrival: {
     title: "Arrive in Chiang Mai",
@@ -20,9 +20,9 @@ window.DAY_1 = {
   },
   stops: [
     {
-      name: "Jing Jai Market",
-      description: "Local crafts, produce, food and a lively weekend-market atmosphere.",
-      detail: "A morning-market stop. Its place in the day depends on the actual bus arrival, energy levels and how quickly you can get settled. Do not treat this as a fixed commitment.",
+      name: "Coconut Market",
+      description: "A lively weekend market with local food, handmade products and a relaxed outdoor atmosphere.",
+      detail: "Explore the market, try local snacks and browse the stalls. Keep this flexible depending on the actual bus arrival, energy levels and how quickly you get settled.",
       tags: ["Market", "Morning", "Priority to confirm"],
       optional: true
     },
@@ -82,6 +82,7 @@ window.DAY_1 = {
     { name: "GRAPH Cafe", detail: "Specialty coffee and cold brew", type: "COFFEE" },
     { name: "Akha Ama Phrasing", detail: "Try the dirty latte", type: "COFFEE" },
     { name: "Kuaytiaw 3 Baht", detail: "Small noodle bowls for a snack", type: "SNACK" },
+    { name: "Coconut Market food stalls", detail: "Local food and snacks while exploring the market", type: "BREAKFAST / SNACK" },
     { name: "Wualai Road food stalls", detail: "Street food while exploring the Saturday market", type: "DINNER" }
   ],
   hotel: {
@@ -102,7 +103,7 @@ window.DAY_1 = {
   ],
   notes: [
     "This is an arrival day after an overnight bus. Keep the schedule flexible.",
-    "Jing Jai Market is a morning activity and may be missed if the bus is delayed.",
+    "Coconut Market is a morning activity and may be missed if the bus is delayed.",
     "Wat Chiang Man and Wat Umong are optional stops.",
     "Opening days, hours and exact branch details for food and cafés need verification."
   ],
@@ -145,8 +146,8 @@ window.DAY_1 = {
     photography: [
       {
         title: "Market mornings",
-        location: "Jing Jai Market",
-        direction: "Capture colourful stalls, food close-ups, vendor details and candid market moments. Try shooting at eye level rather than photographing everything from above.",
+        location: "Coconut Market",
+        direction: "Capture colourful stalls, food close-ups, handmade products and candid market moments. Try shooting at eye level rather than photographing everything from above.",
         priority: "must-capture"
       },
       {
@@ -183,7 +184,7 @@ window.DAY_1 = {
         shots: [
           "Chiang Mai arrival sign or city street",
           "First coffee or breakfast",
-          "Jing Jai Market food and colours",
+          "Coconut Market food and colours",
           "Wat Phra Singh architectural reveal",
           "Wat Chedi Luang wide shot",
           "Baan Kang Wat creative details",
